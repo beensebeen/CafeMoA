@@ -66,10 +66,6 @@
 
 - 목적: 카카오 지도 위에 사용자의 현재 위치와 특정 장소들을 마커 표시하고, 라인을 표시해 경로 좌표 데이터를 이용 가능.
 
-### 🚩 ERD
-
-<img width="658" height="292" alt="Image" src="https://github.com/user-attachments/assets/c3b401e7-c879-4965-aaa7-3ed939042712" />
-
 ---
 
 ## 2️⃣ 개발 일정
@@ -80,29 +76,38 @@
 
 ### 🚩 간트 차트(Gantt Chart)
 
-### 개발 기간: 2022.03 ~ 2022.11 (총 9개월)
-
+개발 기간: 2022.03 ~ 2022.11 (총 9개월)
 3월은 팀원 및 프로젝트 아이디어 선정 기간이며, 아래 사진은 4월부터 11월에 대한 일정
 <img width="579" height="370" alt="Image" src="https://github.com/user-attachments/assets/3d3470ec-dad2-436c-97bf-1608a808b93e" />
 
 ---
 
-## 3️⃣ 주요 기능
+## 3️⃣ 산출물
+
+### 🚩 ERD
+
+<img width="658" height="292" alt="Image" src="https://github.com/user-attachments/assets/c3b401e7-c879-4965-aaa7-3ed939042712" />
+
+## 4️⃣ 주요 기능
 
 ### 🚩 로그인 기능
 
 <img width="316" height="362" alt="Image" src="https://github.com/user-attachments/assets/e9f439f1-9ea8-4b17-bc61-a9aa5f24d2ef" />
 <img width="301" height="402" alt="Image" src="https://github.com/user-attachments/assets/2b608dab-4c9e-4d7c-8fda-a131d0d7278b" />
+<img width="579" height="310" alt="Image" src="https://github.com/user-attachments/assets/ec74d533-100f-4fbb-879f-3fb84890d8d3" />
+<img width="592" height="541" alt="Image" src="https://github.com/user-attachments/assets/b865f135-446e-4157-a032-6628fcccaab3" /></br>
 회원가입, 로그인, 계정찾기, 로그아웃, 회원정보수정, 탈퇴 가능.
 
 ### 🚩 위치제공 기능
 
 <img width="310" height="571" alt="Image" src="https://github.com/user-attachments/assets/465b6833-5604-48d3-9489-d2befc451bf8" />
+<img width="588" height="403" alt="Image" src="https://github.com/user-attachments/assets/f7cfca58-ef06-49d3-a4eb-80ffd8198fc0" /></br>
+
 사용자의 현재 위치를 받아 주변의 위치한 카페를 마커로 맵에 표시.
 
 ### 🚩 카페정보 기능
 
-## <img width="296" height="392" alt="Image" src="https://github.com/user-attachments/assets/9aac346f-5cb9-44ca-b575-f78d3a66e44c" />
+## <img width="296" height="392" alt="Image" src="https://github.com/user-attachments/assets/9aac346f-5cb9-44ca-b575-f78d3a66e44c" /></br>
 
 - 사용자는 카페를 선택하여 해당 카페에 대한 정보(이름, 번호, 영업/휴무일, 주소 등)를 얻을 수 있음.
 - 카페에 있는 번호로 전화 걸기 가능.
@@ -110,57 +115,34 @@
 
 ### 🚩 리뷰 기능
 
-<img width="290" height="229" alt="Image" src="https://github.com/user-attachments/assets/50596b00-0a35-4747-9f6e-13b4ae9eeee0" />
+<img width="290" height="229" alt="Image" src="https://github.com/user-attachments/assets/50596b00-0a35-4747-9f6e-13b4ae9eeee0" /></br>
+
 - 리뷰 작성/관리 뿐만 아니라, 다른 사용자가 작성한 리뷰 확인 가능.
 
 ### 🚩 북마크 기능
 
-<img width="289" height="571" alt="Image" src="https://github.com/user-attachments/assets/f30fc40d-d91e-410e-aee3-8fc9f47e5e29" />
+<img width="289" height="571" alt="Image" src="https://github.com/user-attachments/assets/f30fc40d-d91e-410e-aee3-8fc9f47e5e29" /></br>
+
 - 마음에 드는 카페를 북마크하여 저장할 수 있음.
 - 북마크 삭제 버튼 클릭 시 다이얼로그 메시지가 출력되며 해당 카페의 북마크가 삭제됨.
-## 4️⃣ ERD (Entity-Relationship Diagram)
-
-🚩 **ERD:**
-<br>
-<img width="1431" height="1634" alt="Image" src="https://github.com/user-attachments/assets/a144f23c-eccd-43a8-9e59-68a7373e0d2f" />
-
----
-
-## 5️⃣ 요구사항 명세서
-
-### 🚩 기능별 요구사항 정리
-
-<img width="1399" height="1005" alt="Image" src="https://github.com/user-attachments/assets/1668ec19-3bf0-4f8e-9053-ed741787f6c9" />
-
----
-
----
-
----
-
-## 8️⃣ 기술 스택 세부 명세
 
 ### 📌 프로젝트에서 사용된 주요 기술 스택
 
 ### 💻 Backend
 
-- ![Apex](https://img.shields.io/badge/Apex-0055CC?style=flat&logo=salesforce&logoColor=white)
-- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-- ![SFDX](https://img.shields.io/badge/SFDX-00A1E0?style=flat&logo=salesforce&logoColor=white)
+- <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/>
+- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+- <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white"/>
+- <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
 
-### 🎨 Frontend
+### 🎨 Main Tool
 
-- ![LWC](https://img.shields.io/badge/LWC-0070D2?style=flat&logo=salesforce&logoColor=white)
-- ![html](https://img.shields.io/badge/html-3366CC?logo=htmx&logoColor=white&labelColor=3366CC)
+- <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=Android Studio&logoColor=white"/>
 
 ### 🗄 Database
 
-- ![SOQL](https://img.shields.io/badge/SOQL-00A1E0?style=flat&logo=salesforce&logoColor=white)
+- <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
 
 ### 🛠 협업 툴
 
-- ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-- ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
-- ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
-- ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&labelColor=F24E1E)
-- ![Sheets](https://img.shields.io/badge/Sheets-34A853?logo=googlesheets&logoColor=white&labelColor=34A853)
+- <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
