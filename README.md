@@ -10,8 +10,6 @@
 
 2020년 6월 기준 대한민국 성인의 연간 커피 소비량은 353잔으로, 세계 평균(132잔)의 약 2.7배에 달할 만큼 한국인의 커피 사랑은 특별합니다. 커피 시장이 성장하며 전국에는 8만 3천여 개의 카페가 운영되고 있습니다.이 중 90%가 프랜차이즈가 아닌 '개인 카페'로 운영되지만 온라인상의 정보는 소수의 프랜차이즈에 집중되어 있어, 우리는 주변에 있는 수많은 매력적인 동네 카페들을 놓치고 있는 상황입니다.
 
----
-
 ### 📍 문제 정의
 
 기존 플랫폼은 광고 의존도가 높아 자본력이 부족한 개인 카페는 소비자에게 노출되기 어렵습니다.
@@ -19,16 +17,12 @@
 - **사용자:** 늘 가던 프랜차이즈에 머물러 새로운 선택 기회를 잃음
 - **개인 카페:** 좋은 품질의 제품과 차별화된 개성이 있어도 홍보 부족으로 생존이 어려움
 
----
-
 ### 📍 목표
 
 ‘카페모아’는 프렌차이즈 광고 속에서 사용자와 동네의 작은 카페를 연결하는 '개인 카페 전문 정보 플랫폼'을 지향합니다.
 
 - **사용자**에게는 신뢰도 높은 정보와 실제 리뷰 기반의 취향 맞춤 카페 발견의 즐거움 제공
 - **개인 카페**에게는 비용 부담 없는 공정한 홍보 기회 제공
-
----
 
 ### 📍 기대 효과
 
@@ -94,7 +88,7 @@
 
 #### 📍 회원가입
 
-![Image](https://github.com/user-attachments/assets/a3555b4a-9111-48c0-89a7-9dd4b4a72a04)
+![Image](https://github.com/user-attachments/assets/bad8984c-8ce4-4021-bc21-fcecd76de771)
 **스플래시(인트로)**
 
 - 앱 실행 시 가정 먼저 표시되는 초기 화면
@@ -132,16 +126,13 @@
 
 ---
 
-#### 📍 회원정보찾기
+#### 📍 계정찾기
 
-![Image](https://github.com/user-attachments/assets/8f4b6a51-1973-45c3-a54b-389c2b587bde)
-
-- 아이디와 비밀번호를 찾을 수 있으며 해당 항목에 일치하는 정보가 DB 서버에 존재할 때 아이디 또는 비밀번호를 다이얼로그 메시지로 알려준다.
-
-**회원정보찾기**
+![Image](https://github.com/user-attachments/assets/8b117cdd-1378-416c-a138-5d0ce2c7a15c)
+**계정찾기**
 
 - 아이디·비밀번호찾기: 사용자가 입력한 정보가 DB 서버에 존재할 때 아이디 또는 비밀번호를 다이얼로그 메시지로 출력
-- 예외 처리: 입력 정보가 DB에 존재하지 않을 경우 “일치하는 계정이 없습니다”라는 경고 메시지를 출력
+- 입력 정보가 DB에 존재하지 않을 경우 “일치하는 계정이 없습니다”라는 경고 메시지 출력
 
 ---
 
@@ -149,12 +140,14 @@
 
 #### 📍 지도
 
-![Image](https://github.com/user-attachments/assets/d9496575-f324-4f87-8cf0-afbd362cbe0b)
+![Image](https://github.com/user-attachments/assets/87cf0872-f1eb-459c-962f-9ebd8902f847)
 
 - API를 통해 사용자의 현재 위치와 주변에 위치한 카페들을 마커로 표시
 - 카페를 클릭하여 카페 정보 화면으로 이동 가능
 
 #### 📍 카페 정보
+
+![Image](https://github.com/user-attachments/assets/8f331324-e9d9-4a83-8bc6-33610ee1c824)
 
 - 기본정보: 카페 이름, 번호, 영업일/휴무일, 주소 제공
 - 전화연결: 다이얼패드에 카페 번호가 자동 입력되어 원클릭으로 전화 가능
@@ -165,8 +158,7 @@
 
 ### 🎯 3. 리뷰
 
-![Image](https://github.com/user-attachments/assets/a7b3e961-c872-4dae-919b-a525ef62f27b)
-
+![Image](https://github.com/user-attachments/assets/ab7d8328-5560-4890-b741-983f1cb8c351)
 **리뷰 작성/삭제 및 관리**
 
 - 사용자가 다녀간 카페에 직접 리뷰 작성 가능
@@ -176,11 +168,7 @@
 
 ### 🎯 4. 즐겨찾기
 
-![Image](https://github.com/user-attachments/assets/1b5fabfb-8af4-4866-b231-9b48e89f1cf6)
-
-- 사용자가 관심 있는 카페를 북마크로 저장하여, 메인 북마크 화면에서 한 번에 확인할 수 있는 기능
-- 저장된 북마크 목록은 카페 이름, 주소, 삭제 버튼으로 구성
-
+![Image](https://github.com/user-attachments/assets/5e6628ca-757c-4378-9f6a-62657d10c7ab)
 **북마크 저장**
 
 - 카페 상세 정보 화면에서 별 아이콘 클릭 시 해당 카페가 즐겨찾기 목록에 추가
@@ -212,8 +200,7 @@
 
 #### 📍 공지사항/이용약관
 
-![Image](https://github.com/user-attachments/assets/3811118a-220a-48ef-b4dd-95c0bcb8074f)
-
+![Image](https://github.com/user-attachments/assets/f84c3577-fc1b-46b5-8075-e022f0d97a9e)
 **공지사항**
 
 - 최신 업데이트 및 서비스 관련 공지 확인 가능
@@ -225,11 +212,10 @@
 - 서비스 이용약관 및 위치 기반 서비스 약관 열람 가능
 - 화면을 좌우로 스와이프하여 약관 조항 이동 가능
 
-#### 📍 정보수정
+#### 📍 회원정보수정
 
-![Image](https://github.com/user-attachments/assets/0da5ea21-5b6d-4fff-bf9d-9f83733818bc)
-
-**정보수정**
+![Image](https://github.com/user-attachments/assets/7e41c30d-b096-4b84-b720-d3902f2bee7b)
+**회원정보수정**
 
 - 개인정보 보호를 위해 비밀번호 재입력 후 접근 가능
 - 기존 회원 정보가 표시되며, 아이디는 고정값으로 변경 불가
@@ -239,7 +225,6 @@
 #### 📍 로그아웃
 
 <img width="234" height="439" alt="Image" src="https://github.com/user-attachments/assets/e41a7a43-0404-4db8-89a8-9ccc3090094f" />
-
 **로그아웃**
 
 - 로그아웃 버튼 클릭 시 세션 종료 후 로그인 화면으로 전환
@@ -247,7 +232,7 @@
 
 #### 📍 회원탈퇴
 
-![Image](https://github.com/user-attachments/assets/85b80472-9c72-42ac-b182-a393c22be082)
+![Image](https://github.com/user-attachments/assets/48c8215a-7382-495e-b167-b4f9d3c9594f)
 
 **회원탈퇴**
 
