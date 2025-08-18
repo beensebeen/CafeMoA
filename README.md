@@ -224,7 +224,7 @@
 
 #### 📍 로그아웃
 
-<img width="234" height="439" alt="Image" src="https://github.com/user-attachments/assets/e41a7a43-0404-4db8-89a8-9ccc3090094f" />
+<img width="234" height="439" alt="Image" src="https://github.com/user-attachments/assets/e41a7a43-0404-4db8-89a8-9ccc3090094f" /></br>
 **로그아웃**
 
 - 로그아웃 버튼 클릭 시 세션 종료 후 로그인 화면으로 전환
